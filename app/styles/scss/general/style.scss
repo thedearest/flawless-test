@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, h6, p, a, span, button {
+  line-height: 1.42em;
+}
+
+input, button {
+  outline: none;
+  font: inherit;
+  color: inherit;
+}
+
+.padding--s {
+  padding: 0 10.6149341%;
+}
+
+.padding--m {
+  padding: 0 16.837481698%;  
+}
+
+.padding--l {
+  padding: 0 18.301610541%;  
+}
+
+.sprites {
+  font-size: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: bottom;
+  justify-content: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+}

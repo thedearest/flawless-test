@@ -1,0 +1,42 @@
+.header__hamburger {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.welcome__nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 400%;
+  background-color: #5dade2;
+  padding: 10px;
+}
+
+.welcome__nav a {
+  font: .75em 'Raleway', 'Open Sans', Arial, sans-serif;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  &:hover {
+    text-decoration: underline;
+  }
+}

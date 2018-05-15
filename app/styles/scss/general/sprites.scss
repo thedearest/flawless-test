@@ -1,0 +1,72 @@
+.app-gallery, .mainpage-white-phone, .menu-black-phone, .login-page-black-phone, .alif-noor-avatar, 
+.facebook, .pinterest, .twitter, .vimeo, .youtube, 
+.search-icon
+{ max-width: 100%; background-size: 100%; background-image: url('../images/sprites.png'); }
+ 
+.app-gallery { background-position: 0 0%; background-size: 100%; }
+.mainpage-white-phone { background-position: 0 31.50369%; background-size: 214.611872%; }
+.menu-black-phone { background-position: 0 59.323543%; background-size: 262.569832%; }
+.login-page-black-phone { background-position: 0 84.81069%; background-size: 264.044944%; }
+.alif-noor-avatar { background-position: 0 92.736803%; background-size: 643.835616%; }
+.facebook { background-position: 0 94.252874%; background-size: 2848.484848%; }
+.pinterest { background-position: 0 95.474138%; background-size: 2848.484848%; }
+.twitter { background-position: 0 96.695402%; background-size: 2848.484848%; }
+.vimeo { background-position: 0 97.916667%; background-size: 2848.484848%; }
+.youtube { background-position: 0 99.137931%; background-size: 2848.484848%; }
+.search-icon { background-position: 0 100%; background-size: 4086.956522%; }
+
+.facebook,
+.pinterest,
+.twitter,
+.vimeo,
+.youtube {
+  border-radius: 5px;
+  cursor: default;
+}
+
+.gallery-checkout-bg {
+  background-image: url('../images/all/gallery_checkout_bg-min.jpg'); 
+  max-width: 100%; 
+  background-size: 100%;
+}
+
+.header-bg-burger {
+  background-image: url('../images/all/header_bg_burger-min.jpg');
+  background-position: center; 
+  max-width: 100%; 
+  background-size: cover;
+}
+
+.newsletter {
+  background-image: url('../images/all/newsletter-min.jpg');
+  max-width: 100%; 
+  background-size: cover;  
+}
+
+.sprite-wrapper {
+  position: relative;
+}
+
+.login-page-black-phone,
+.menu-black-phone {
+  position: relative;
+  top: 7px;
+}
+
+.mainpage-white-phone {
+  position: relative;
+  top: 8px;
+}
+
+@media (max-width: 768px) {
+  .gallery-checkout-bg {
+    background-size: cover;
+  }
+}
+
+@media (min-width: $mobile--l) and (max-width: $tablet) {
+  .mainpage-white-phone {
+    left: 27%;
+    max-width: 50%;
+  }  
+}

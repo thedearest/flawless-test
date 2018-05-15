@@ -1,0 +1,56 @@
+.reviews {
+  position: relative;
+  z-index: 10;
+}
+
+.review {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  justify-content: space-around;
+}
+
+.review .sprite-wrapper {
+  position: relative;
+  flex: 1 0 20%;
+  & img {
+    width: 75%;
+  }
+}
+
+.alif-noor-avatar {
+  border: 2px solid #3498db;
+  border-radius: 50%;
+}
+
+.review__text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 71%;
+  font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+  color: #566473;
+}
+
+.review__title {
+  font-size: 1.625em;
+  font-weight: 500;
+}
+
+.review__desc {
+  font-size: 0.813em;
+  text-align: justify;
+}
+
+@media (max-width: $tablet) {
+  .review {
+    flex-direction: column;
+    align-items: center;
+  }
+  .review .sprite-wrapper img {
+    width: 100%;
+  }
+  .review__title {
+    text-align: center;
+  }
+}

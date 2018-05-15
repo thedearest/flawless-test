@@ -1,0 +1,23 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.carousel__wrapper {
+  display: flex;
+  transition: transform .5s;
+  will-change: transform;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.carousel__item {
+  flex: 0 0 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

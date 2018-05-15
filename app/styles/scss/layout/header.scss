@@ -1,0 +1,27 @@
+.welcome__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 4%;
+}
+
+.header__form label {
+  position: relative;
+}
+
+.header__form label > 
+.header__search + .search-icon {
+  display: inline-block;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.header__search {
+  position: relative;
+  top: -6px;
+  font-family: 'Raleway', Arial, sans-serif;
+  padding-left: 6px;
+  display: none;
+}

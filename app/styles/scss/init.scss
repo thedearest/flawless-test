@@ -1,0 +1,20 @@
+//misc settings
+@import 'config/vars';
+@import 'carousel/carousel';
+@import 'carousel/carousel-buttons';
+
+//global things
+@import 'general/style';
+@import 'general/sprites';
+@import 'general/fonts';
+@import 'general/_reset';
+@import 'layout/header';
+@import 'layout/footer';
+
+//sections
+@import 'sections/welcome/style';
+@import 'sections/superb-features/style';
+@import 'sections/article-content+todays-menu/style';
+@import 'sections/gallery-checkout/style';
+@import 'sections/reviews/style';
+@import 'sections/newsletter/style';
