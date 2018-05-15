@@ -17,6 +17,7 @@
 5. Gulp boilerplate by [ryanbenson](https://github.com/ryanbenson/Harvest)
 6. Sprites
 7. Responsive design
+8. BEM
 and more..
 
 #### Validators and optimizing tools
